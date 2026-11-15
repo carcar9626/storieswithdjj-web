@@ -90,9 +90,10 @@ repo grows enough to want independent local tooling.
 
 - No real content beyond the coming-soon page — no character bios, no episode links, no proper
   nav. Don't build ahead of what's been asked for.
-- No email set up for `contact@storieswithdjj.com` yet (owner was going to check directnic's own
-  panel for included forwarding first, then consider Cloudflare Email Routing as a free
-  forward-to-existing-Gmail fallback). Not this repo's concern even once set up — email routing
-  is a DNS/registrar-level thing, doesn't touch any file here.
+- **`contact@storieswithdjj.com` is set up** (ImprovMX free-tier forwarding to
+  `storieswithdjj@gmail.com`, via DirectNic DNS records) — full setup reference is
+  `contact_email_setup.md` in the production repo (`stories-with-DJJ`), not duplicated here.
+  Not this repo's concern either way — email routing is a DNS/registrar-level thing, doesn't
+  touch any file here.
 - No analytics, no cookie/consent banner — not needed yet for a page with no tracking and no
   forms; add only if that changes.
